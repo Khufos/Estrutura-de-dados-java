@@ -1,9 +1,9 @@
 package exercicios_de_pilha;
-//Escreva um programa para verificar se uma expressão matemática tem os
 
 import javax.swing.text.StyledEditorKit.BoldAction;
 
 import Pilha.Pilha;
+//Escreva um programa para verificar se uma expressão matemática tem os
 
 //parênteses agrupados de forma correta,isto é :
 // (1) se o número de parênteses á esquerda e á direita são iguais e;
