@@ -3,11 +3,8 @@ Estudo sobre Estrutura de Dados com java
 ```
 1:Lista ✔️
 2:Pilha ✔️
-3:Fila
-4:Arvore Binaria
-5:Grafo
-6:Rip
-7:Hash table
+3:Fila ✔️
+
 
 O que são estruturas de dados:
 
@@ -39,14 +36,30 @@ São estruturas de dados do tipo LIFO (last-in first-out), onde o último elemen
 será o primeiro a ser retirado. Assim, uma pilha permite acesso a apenas um item de dados 
 o último inserido. Para processar o penúltimo item inserido, deve-se remover o último.
 
-Classe Pilha:
+Classe Fila:
 -> Definicão ✔️
--> Verificar quantidade de elemenetos na pilha ✔️
+-> Verificar quantidade de elemenetos na fila ✔️
 -> Empilhar elemento ✔️
--> Verificar se pilha está vazia ✔️
--> Espiar/Verificar elemento topo da pilha ✔️
+-> Verificar se fila está vazia ✔️
+-> Espiar/Verificar elemento topo da fila ✔️
 -> Desempilhar elemento da pilha ✔️
 -> API java Stack ✔️
+-> Exercícios  ✔️
+
+```
+```
+Fila:
+    são estruturas de dados bastante utilizadas na computação, onde o primeiro elemento a ser inserido, 
+    será também o primeiro a ser retirado. Desta forma, serão adicionados elementos no fim e removê-los pelo início.
+
+Classe Fila:
+-> Definicão ✔️
+-> Enfileirar elemento ✔️
+-> Espiar/Verificar elemento início da pilha ✔️
+-> Desenfileirar elemento da pilha ✔️
+-> API java Queue ✔️
+-> Filas com prioridade ✔️
+-> API java PriorityQueue ✔️
 -> Exercícios  ✔️
 
 ```

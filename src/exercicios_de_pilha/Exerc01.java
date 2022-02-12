@@ -18,27 +18,27 @@ public class Exerc01 {
 
         Pilha<Integer> pilha = new Pilha<Integer>();
 
-        Scanner scan = new Scanner(System.in);
+        try (Scanner scan = new Scanner(System.in)) {
+            for (int i = 1; i <= 10; i++) {
 
-        for (int i = 1; i <= 10; i++) {
+                System.out.print("Entre com um número:");
 
-            System.out.print("Entre com um número:");
+                int num = scan.nextInt();
 
-            int num = scan.nextInt();
+                if (num % 2 == 0) {
 
-            if (num % 2 == 0) {
-
-                System.out.println("Empilhando o número " + num);
-                pilha.empilha(num);
-            } else {
-
-                Integer desempilhado = pilha.desempilha();
-
-                if (desempilhado == null) {
-                    System.out.println("Pilha está vazia");
+                    System.out.println("Empilhando o número " + num);
+                    pilha.empilha(num);
                 } else {
-                    System.out.println("Número ímpar, desempilhando um elemento da pilha: "
-                            + desempilhado);
+
+                    Integer desempilhado = pilha.desempilha();
+
+                    if (desempilhado == null) {
+                        System.out.println("Pilha está vazia");
+                    } else {
+                        System.out.println("Número ímpar, desempilhando um elemento da pilha: "
+                                + desempilhado);
+                    }
                 }
             }
         }

@@ -1,7 +1,5 @@
 package exercicios_de_pilha;
 
-import javax.swing.text.StyledEditorKit.BoldAction;
-
 import Pilha.Pilha;
 //Escreva um programa para verificar se uma expressão matemática tem os
 

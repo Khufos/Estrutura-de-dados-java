@@ -2,8 +2,6 @@ package exercicios_de_pilha;
 
 import java.util.Stack;
 
-import Pilha.Pilha;
-
 //Repita o mesmo processo do exercicio anterior, porém ultilizando a classe Stack da Api java.
 // 1 crie uma pilha com capacidade para 20 livros
 // 2 insira 6 livros na pilha; cada livro contém nome, isbn, ano de lançamento e autor
