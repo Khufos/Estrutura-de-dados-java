@@ -49,8 +49,8 @@ Classe Fila:
 ```
 ```
 Fila:
-    são estruturas de dados bastante utilizadas na computação, onde o primeiro elemento a ser inserido, 
-    será também o primeiro a ser retirado. Desta forma, serão adicionados elementos no fim e removê-los pelo início.
+são estruturas de dados bastante utilizadas na computação, onde o primeiro elemento a ser inserido, 
+será também o primeiro a ser retirado. Desta forma, serão adicionados elementos no fim e removê-los pelo início.
 
 Classe Fila:
 -> Definicão ✔️
